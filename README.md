@@ -24,7 +24,7 @@ files
 
 silenceisgolden.py
 
-- Establish ssh proxy connection to Raspberry1B+ 
+- It will listen your UDP message and launch commands depending on UDP message. 
 
 
 ## Requirements
