@@ -2,6 +2,9 @@
 ## Overview 
 Using this allows you to control linux over iPhone or Android.
 
+I do not provide how to setup your custome UDP message in your iPhone or Android.
+Googling how to send UDP message ios and android will help this easily.
+
 Exmaple:
 
  Saying Ok google, Shutdown 
