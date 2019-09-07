@@ -35,10 +35,29 @@ python2.7
 mpg123
 
 ## Usage
+Testing
+
 Run py file in terminal.
 
 $ python2.7 silenceisgolden.py
 
+then send udp message from your iPhone or Android.
+
+Set that as customized voice commands
+
+Setting crontab to initiate on boot or add silenceisgolden.py as systemctl services.
+
+for cron
+
+@reboot python2.7 silenceisgolden.py
+
+for systemd
+
+add silenceisgolden.service in /lib/systemd/system/
+
+systemctl-daemon reload
+
+systemctl enable silenceisgolden.service
 
 ## Install
 
