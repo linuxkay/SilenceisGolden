@@ -1,0 +1,11 @@
+[Unit]
+Description=runrec
+
+[Service]
+Type=simple
+ExecStartPre=/usr/bin/sleep 3 
+ExecStart=/usr/bin/python2.7 /home/user/Workspace/silenceisgolden.py
+Restart = always
+
+[Install]
+WantedBy=default.target
