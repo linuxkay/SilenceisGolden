@@ -67,6 +67,12 @@ systemctl enable silenceisgolden.service
 
 ## Contribution
 
+# Updates
+
+2020/6/6 key-send.py added for backup
+
+2017/5/7 created key-send.py
+
 ## Licence
 [MIT]
 
