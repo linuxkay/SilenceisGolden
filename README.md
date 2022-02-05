@@ -69,7 +69,9 @@ systemctl enable silenceisgolden.service
 
 ## Updates
 
-2020/6/6 key-send.py added for backup
+2022/2/5 Added Windows version.
+
+2020/6/6 key-send.py added for backup.
 
 2017/5/7 created key-send.py
 
