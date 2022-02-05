@@ -7,7 +7,7 @@ import re
 import ctypes
 
 UDP_IP = "192.168.1.22"
-UDP_PORT = 443
+UDP_PORT = port-number
 
 sock = socket.socket(socket.AF_INET, # Internet
                      socket.SOCK_DGRAM) # UDP
@@ -18,8 +18,5 @@ while True:
     data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
     print("received message:", data)
     # Lock Screen when "lockdown" request received
-    if re.compile(data.decode("utf-8")).search('lockdown'):
+    if re.compile(data).search(b'lockdown'):
                   ctypes.windll.user32.LockWorkStation()
-    f = open(r'C:\Users\ohnuma\program_spaces\word.txt', 'w')
-    f.write(data)
-    f.close()
